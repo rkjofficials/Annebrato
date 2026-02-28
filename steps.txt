@@ -1,0 +1,1938 @@
+# HP Printer Error Codes
+
+## HP LaserJet Errors
+
+### Error Code Reference
+
+- **10.0000**: Magnetic drive belt error - Replace the toner cartridge and check the drum
+- **10.0001**: Fuser error - Check fuser assembly connections. Power off and restart
+- **10.0002**: Pickup roller error - Replace pickup rollers. Clean separation pads
+- **10.0303**: Engine communication error - Restart printer. Check engine board connections
+- **10.1000**: Toner cartridge problem - Reinstall cartridge or replace with new cartridge
+- **10.1400**: Paper jam detected - Open all doors, clear paper. Check rollers for debris
+- **10.1601**: Open-door error - Close all printer covers and access doors
+- **10.2000**: Motor assembly error - Restart printer. Check motor connections
+- **10.2100**: Formatter board error - Power cycle. If persists, formatter board may need replacement
+- **10.2200**: Hard disk error - Restart printer. Factory reset may be needed
+- **10.3000**: Insufficient memory - Add additional RAM or reduce print job complexity
+- **10.4000**: Network card error - Check network connection. Try different network port
+- **10.4100**: Wireless connection error - Restart printer wireless module. Verify WiFi credentials
+- **10.5000**: Fan error - Check cooling fan connections and operation
+- **10.5100**: Thermal sensor error - Check thermal sensor connections
+- **20.0000**: Tray pickup failure - Clean pickup rollers. Verify tray is properly installed
+- **20.1000**: Tray empty error - Fill paper tray with paper
+- **20.1001**: Tray paper sensor error - Clean sensor. Check tray sensor connection
+- **20.2000**: Duplex unit error - Check duplex assembly connections and alignment
+- **21.0000**: Calibration error - Page 1: Run self-test. If fails, check color cartridges
+- **21.2000**: Color registration error - Replace color cartridges. Run calibration procedure
+- **22.0001**: Scanner light detection failure - Restart printer. Check scanner light assembly
+- **23.0000**: Detack roller error - Check detach roller in fuser. May need replacement
+- **30.0000**: Defective memory detected - Check RAM installation. Test with single RAM module
+- **40.2.12**: Corrupt firmware - Download latest firmware from HP. Perform firmware update
+- **41.2**: Incompatible cartridge - Use genuine HP cartridges. Clean cartridge contacts
+- **41.3**: Cartridge installation error - Remove and reinstall cartridge. Verify it clicks into place
+- **49.0000**: Service tools error - Contact HP support. Printer may need factory reset
+- **50.0000**: Configuration problem - Check network or USB connection. Verify driver installation
+- **51.0000**: Network configuration error - Access printer web page. Configure network settings
+- **52.0000**: SNMP network error - Verify SNMP enabled. Check network connectivity
+- **54.0000**: Certificate error - Update SSL certificate or disable certificate verification
+- **55.0000**: DNS configuration error - Set correct DNS servers in printer network settings
+- **58.2**: Defrost error - Printer warm-up failed. Restart printer. Check power supply
+- **59.3**: Unexpected printer error - Restart printer. Clear print queue. Factory reset if needed
+- **67.0000**: Service call required error - Contact HP Service. Printer may need repair
+- **68.0000**: Imaging unit error - Check imaging unit position. May need replacement
+- **69.0000**: Excessive temperature - Allow printer to cool. Check for blocked ventilation
+
+## HP Deskjet/Officejet Errors
+
+- **100**: Out of paper - Load paper into tray
+- **200**: Paper jam - Remove all jammed paper. Check for torn pieces
+- **300**: Missing cartridge - Install ink cartridge in correct slot
+- **301**: Cartridge not recognized - Remove cartridge and clean contacts
+- **350**: Cartridge low - Order replacement cartridge
+- **400**: Ink system problem - Clean ink cartridge contacts. Check cartridge seal
+- **401**: Insufficient ink - Replace cartridge
+- **410**: Printhead stuck - Run cleaning cycle. May need multiple cleaning passes
+- **500**: Hardware error - Restart printer. Check all connections
+- **501**: Cover open - Close all printer covers
+- **502**: Document jam - Clear jam. Check all doors
+- **503**: No power - Check power cable. Try restart
+- **600**: Communication error - Check USB cable. Restart printer and computer
+- **601**: Timeout error - Check network connection. Verify WiFi strength
+- **700**: Carriage jam - Press paper clip to reset carriage. Remove blockages
+
+## Canon Printer Error Codes
+
+### Canon ImageRunner/imageRUNNER Errors
+
+- **001**: System error - Power on/off cycle. Contact Canon service if persists
+- **002**: Polygon mirror error - Check polygon mirror assembly. May need replacement
+- **003**: Laser scanner error - Check laser connections. Restart printer
+- **004**: Toner cartridge error - Reinstall toner cartridge. Check cartridge type
+- **005**: Developer error - Check developer unit. May need replacement
+- **006**: Fuser unit error - Check fuser temperature sensor. Restart printer
+- **007**: Thermistor error - Replace faulty thermistor in fuser
+- **008**: Paper feed error - Check pickup rollers. Clean feed path
+- **009**: Solenoid error - Check solenoid connections. May need replacement
+- **010**: Motor error - Check motor connections. Verify motor operation
+- **100**: Tray 1 error - Check tray 1 installation. Verify paper guides
+- **101**: Tray 2 error - Check tray 2 connection and position
+- **102**: Tray 3 error - Verify tray 3 is properly seated
+- **103**: Large capacity tray error - Check LCT connection and position
+- **110**: Paper jam in tray 1 - Clear jam. Check for torn paper pieces
+- **111**: Paper jam in tray 2 - Remove all jammed paper. Clean feed path
+- **112**: Paper jam in tray 3 - Open all access areas. Clear obstruction
+- **113**: Paper jam in transport - Press toner cartridge area to clear jam
+- **114**: Paper jam in output - Clear output tray. Check discharge roller
+- **120**: No paper in tray 1 - Load paper. Verify tray sensor
+- **121**: No paper in tray 2 - Fill tray with paper. Check sensor
+- **122**: No paper in tray 3 - Load paper into tray
+- **130**: Separation pad worn - Replace separation pads
+- **140**: Pickup roller worn - Replace pickup roller
+- **150**: Fuser cleaning cycle failure - Allow extended cool-down. Check fuser assembly
+- **160**: Imaging drum replacement - Replace image drum unit
+- **170**: Incompatible or empty cartridge - Use genuine Canon cartridge. Verify toner level
+- **180**: Waste toner full - Replace waste toner box
+- **200**: Copier control unit error - Restart copier. Check PCB connections
+- **300**: Network error - Check network cable. Verify IP address settings
+- **301**: Modem error - Check modem connection. Verify phone line
+- **302**: Fax communication error - Power cycle fax modem. Check phone line
+- **400**: Memory full - Delete files from storage. Perform memory clear
+- **500**: Hard disk error - Check hard drive connections. May require factory service
+- **501**: Hard disk initialization - Restart printer. Format drive if needed
+- **600**: Copy count error - Check copy counter mechanism
+- **700**: Authentication error - Verify user credentials. Check LDAP server connection
+- **800**: File error - Restart printer. Clear temporary files
+- **900**: Other error - Refer to service manual. Contact Canon support
+
+### Canon Pixma/i-SENSYS Errors
+
+- **P01**: Paper size error - Load correct paper size
+- **P02**: Paper quality error - Check paper type setting. Load appropriate paper
+- **P06**: Paper jam - Clear jam from all areas
+- **P07**: No paper - Load paper in tray
+- **P10**: Ink cartridge error - Check cartridge installation. Use genuine Canon cartridges
+- **P20**: Print head error - Run cleaning cycle. Clean print head if needed
+- **P21**: Print head temperature error - Allow cool-down. Check power supply
+- **P30**: Ink pump/system error - Run cleaning cycle. Check ink tube connections
+- **P40**: Carriage error - Check carriage movement. Remove any blockages
+- **Err04**: Wrong cartridge - Use cartridge designated for this printer model
+- **Err05**: Cartridge nearly empty - Prepare replacement cartridge
+- **Err41**: Fake cartridge detected - Use genuine Canon cartridge
+- **Err80**: Checksum error - Restart printer. Check firmware
+- **Err1401**: USB communication error - Try different USB port. Reconnect cable
+- **Err1461**: Network communication error - Check WiFi connection. Verify IP address
+
+## General Printer Troubleshooting
+
+### Print Quality Issues
+
+- **Faded printing**: Low toner/ink. Replace cartridge. Check fuser temperature
+- **Streaks on page**: Dirty pickup roller or print drum. Run cleaning cycle. Clean rollers
+- **Color misalignment**: Run color calibration. Check registration settings
+- **Ghosting (faint image)**: Worn imaging drum or developer. May need replacement
+- **Rough texture**: Check paper type. Verify toner fuser setting. Clean rollers
+- **Toner smudging**: Fuser temperature too low. Check thermal settings. Inspect fuser
+
+### Paper Feed Problems
+
+- **Multiple sheets picked**: Pickup roller worn or dirty. Clean and replace if needed
+- **No paper picked**: Check tray sensor. Verify tray positioning. Clean rollers
+- **Skew (diagonal feed)**: Check paper guides. Verify tray alignment. Clean feed path
+- **Duplex failure**: Check duplex unit connections. Verify duplex sensor
+
+### Communication Errors
+
+- **USB not recognized**: Try different USB port. Update printer drivers. Restart both devices
+- **Network unreachable**: Check ethernet/WiFi connection. Verify printer IP address
+- **Slow printing**: Check network load. Reduce print job complexity. Update firmware
+- **Print job stuck in queue**: Restart print spooler. Clear printer queue. Power cycle printer
+
+### Maintenance Required Messages
+
+- **Toner low**: Order replacement toner immediately. Monitor for quality degradation
+- **Waste box full**: Empty or replace waste container before continuing
+- **Maintenance interval reached**: Perform maintenance on fuser, rollers, etc per manual
+- **Drum replacement due**: Order replacement imaging drum. Schedule maintenance
+
+# Opera OXI (OPERA Xchange Interface) - Comprehensive Error Documentation
+
+## OXI Overview
+
+OXI is the OPERA Xchange Interface that enables integration between OPERA PMS
+and external systems (such as booking channels). This section contains ALL error
+messages extracted from official Oracle documentation (Appendix A, C, E).
+
+## OXI Message Direction
+
+Messages are issued in two directions:
+- **OPERA > External (Upload)**: Message sent from OPERA to external system
+- **External > OPERA (Download)**: Message received by OPERA from external system
+
+## OXI System Error Log - Detailed Error Reference
+
+### Database and Connection Errors
+
+- **Error**: Can't update thread status. Error: ORA-01012: not logged on
+  - **Direction**: OPERA > External
+  - **Reason**: Network connection is down. Database was restarted without stopping OXI service
+  - **Solution**: When server is back up, stop/restart OXI service to refresh communication
+
+- **Error**: Value of application parameter UP_PROC_IDLE_TIME in group OXI_GENERIC not found
+  - **Direction**: OPERA > External
+  - **Reason**: Upload processor timing parameter is missing, using default value (2)
+  - **Solution**: Verify parameter settings in OXI configuration
+
+- **Error**: B44 OXI Heart Beat failed. Error: ORA-01012: not logged on
+  - **Direction**: OPERA > External or External > OPERA
+  - **Reason**: Interface is not communicating with IFC Monitor (ORS interfaces with remote ORS)
+  - **Solution**: Restart OXI service and verify database connectivity
+
+- **Error**: ORA-04068 / ORA-04061 / ORA-04065 / ORA-06508: Package state discarded/invalidated
+  - **Direction**: OPERA > External
+  - **Reason**: Invalid objects in OXI schema after installation/upgrade. Processor not restarted
+  - **Solution**: Check for invalid objects. Restart processor service after upgrade
+
+- **Error**: ORA-04031: Unable to allocate shared memory
+  - **Direction**: External > OPERA
+  - **Reason**: Invalid objects in OXI schema. Shared pool exhausted
+  - **Solution**: Check for invalid objects in schema. Restart processor
+
+- **Error**: Can't connect to database. Error: ORA-01017: invalid username/password
+  - **Direction**: OPERA > External
+  - **Reason**: Database connection credentials are incorrect for OXI service
+  - **Solution**: Verify OXI database user/password in registry settings (Windows) or config
+
+- **Error**: ORA-01012: not logged on (during batch outbound or message dequeue)
+  - **Direction**: OPERA > External
+  - **Reason**: Connection to database not available. OXI service not running
+  - **Solution**: Check OXI service status. Stop/restart service to refresh processors
+
+- **Error**: ORA-00028: your session has been killed
+  - **Direction**: OPERA > External
+  - **Reason**: OXI service was 'killed' during database/app server restart
+  - **Solution**: Restart OXI service once server is back up
+
+- **Error**: ORA-01012: not logged on (Connection Error)
+  - **Direction**: External > OPERA
+  - **Reason**: Network disconnect or database restart without stopping OXI
+  - **Solution**: Restart OXI service to refresh database connection
+
+- **Error**: ORA-06502: PL/SQL numeric or value error
+  - **Direction**: OPERA > External (Reservation)
+  - **Reason**: Data conversion error during reservation processing
+  - **Solution**: Verify OXI configuration and data format
+
+### Message Processing Errors
+
+- **Error**: No interfaces are active. Exiting
+  - **Direction**: OPERA > External
+  - **Reason**: Interface created but not fully configured or incorrectly configured
+  - **Solution**: Verify interface configuration and activate interface
+
+- **Error**: Upload processor is already running
+  - **Direction**: OPERA > External
+  - **Reason**: Start button selected multiple times or processor still running
+  - **Solution**: Wait for existing processor to complete or manually stop before restarting
+
+- **Error**: Can't get message from external system. Error -29532 (Java exception)
+  - **Direction**: External > OPERA
+  - **Reason**: Communication error. Processors may have stopped
+  - **Solution**: Verify OXI processors are running. Check external system connectivity
+
+- **Error**: Status Update Failed. Error -29550: Java session state cleared
+  - **Direction**: External > OPERA
+  - **Reason**: Communication error with OXI service
+  - **Solution**: Restart OXI processors and verify communication
+
+- **Error**: Can't get message from external system. Error ORA-02049: timeout waiting for lock
+  - **Direction**: External > OPERA
+  - **Reason**: Record is open by another user. Distributed transaction lock timeout
+  - **Solution**: Verify another user isn't updating the same record. Check lock wait time
+
+- **Error**: Can't get message from external system. Error ORA-29540: class IntFtComm does not exist
+  - **Direction**: External > OPERA
+  - **Reason**: Communication class not found. Software component missing
+  - **Solution**: Verify OXI installation is complete. Reinstall if necessary
+
+- **Error**: Can't get message from external system. Error ORA-02019: connection not found
+  - **Direction**: External > OPERA
+  - **Reason**: Remote database connection not configured
+  - **Solution**: Verify remote database connection in OXI configuration
+
+- **Error**: Can't execute batch outbound process. Error: ORA-01012
+  - **Direction**: OPERA > External
+  - **Reason**: Database connection lost
+  - **Solution**: Verify OXI service is running. Restart service if needed
+
+- **Error**: Can't dequeue message from OXI. Error: ORA-01012
+  - **Direction**: OPERA > External
+  - **Reason**: Database connection not available
+  - **Solution**: Restart OXI service
+
+- **Error**: Error While Retrieving Parameters From Table. Error -6508
+  - **Direction**: OPERA > External
+  - **Reason**: Communication from OXI to external destination failed
+  - **Solution**: Verify external system connectivity
+
+### Configuration Error
+
+- **Error**: Communication parameters: Undefined!
+  - **Direction**: External > OPERA
+  - **Reason**: Communication Methods in OXI not setup correctly
+  - **Solution**: Go to Interface Configuration > Comm Methods and configure
+
+### File and Export Errors
+
+- **Error**: Error while transferring file to FTP server. Reason: Login incorrect
+  - **Direction**: OPERA > External (Export Files)
+  - **Reason**: Username or password incorrect in communication methods
+  - **Solution**: Verify FTP username and password. Check spelling
+
+- **Error**: Error while transferring file. Reason: Directory path does not exist
+  - **Direction**: OPERA > External (Export Files)
+  - **Reason**: FTP server folder path is incorrect in communication methods
+  - **Solution**: Verify FTP directory path is correct and accessible
+
+- **Error**: No Data Found to Read for Group
+  - **Direction**: OPERA > External (Export Files)
+  - **Reason**: Empty data record in EXP_DATA_TABLE
+  - **Solution**: Contact OPERA Support or PMS team to research data issue
+
+- **Error**: CLOB is Null or CLOB is empty
+  - **Direction**: External > OPERA
+  - **Reason**: Oracle table space was full. System purged data
+  - **Solution**: None needed if space is now available. Monitor table space
+
+- **Error**: Untyped exception in thread (multi-property setup)
+  - **Direction**: OPERA > External
+  - **Reason**: Communication Methods not setup for all interfaces in multi-property
+  - **Solution**: Setup Communication Methods for all interfaces even if inactive
+
+- **Error**: Oracle error 'ORA-12535: TNS operation timed out' - Network lost
+  - **Direction**: OPERA > External
+  - **Reason**: Lost connectivity to network
+  - **Solution**: Verify network connectivity and network configuration
+
+### Interface Status Messages (Not Errors)
+
+These messages indicate normal operations:
+- **Message**: Process started for interfaces at [time]
+  - **Type**: Information. Upload Processor was started
+- **Message**: Process stopped at [time]
+  - **Type**: Information. Upload Processor was stopped
+- **Message**: No. of messages dequeued: [count]
+  - **Type**: Information. Log of messages processed
+- **Message**: Thread [ID] for [Interface] started
+  - **Type**: Information. Interface processor thread started
+- **Message**: Interface service started / stopped
+  - **Type**: Information. OXI interface monitoring started/stopped
+
+## OXI Message Status - Current Error Grid
+
+### Reservation Errors
+
+**Error**: -20001: Matching allotment_detail records do not exist
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Validation fails due to missing allotment information
+- **Solution**: Verify allotment setup is complete
+
+**Error**: -99; OXI-ProcessNResv: ORA-06502: PL/SQL numeric or value error
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Cancellation of reservation sending to Holidex fails in OXI
+- **Solution**: Verify OXI data format. Check reservation details
+
+**Error**: E-1 RATE_CODE Conversion failed
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Holidex booking linked to block failed. Conversion issue or missing rate code
+- **Solution**: Add OPERA>External Reservation Rate Code default. Update rate details if expired
+
+**Error**: Reservation Cancel failed - "Cannot Cancel, Reservation have non-zero deposits"
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Deposits are on reservation
+- **Solution**: Refund or process deposits using cashiering module. Then cancel manually
+
+**Error**: Cannot cancel reservation - Reservation not found for external system number
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: No match in OPERA. Reservation missing or manual error. No confirmation number returned
+- **Solution**: Verify reservation exists. Check external system confirmation number is correct
+
+**Error**: Cannot Cancel Checked In Reservation
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Reservation is already checked out in receiving system
+- **Solution**: Update reservation status before cancellation
+
+**Error**: Can't convert opera rate code to external system rate program
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Rate Code conversion missing from conversion table
+- **Solution**: Setup rate conversion. Or verify reservation has block code for block rates
+
+**Error**: Can't convert opera rate code with block code to external rate program
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Default rate setup incorrectly. Should not be in rate conversion table
+- **Solution**: Remove default rate from conversion table. Review reservation details
+
+### Product and Profile Errors
+
+**Error**: Product code not defined in PMS
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Product type from external system not configured
+- **Solution**: Configure product code in OPERA
+
+**Error**: Cannot create profile without last name
+- **Direction**: External > OPERA
+- **Module**: Profiles
+- **Type**: Mandatory Warning
+- **Reason**: Last name is mandatory
+- **Solution**: Provide last name for profile creation
+
+**Error**: Value 'D' for mandatory conversion code 'PROFILE_TYPE' not found
+- **Direction**: OPERA > External
+- **Module**: Profiles
+- **Type**: Mandatory Warning
+- **Reason**: Guest profile type value missing from Conversion Codes
+- **Solution**: Configure profile type conversion codes (Guest, Company, Travel_Agent, etc)
+
+**Error**: Int_code_conversion.ConvertCodes Returns fail (User-Defined Exception)
+- **Direction**: OPERA > External
+- **Module**: Profiles
+- **Type**: Optional Warning
+- **Reason**: Conversion Code does not exist
+- **Solution**: Define missing conversion code
+
+### XML and Data Format Errors
+
+**Error**: Xml Res Profile Table is Empty
+- **Direction**: External > OPERA
+- **Module**: Reservation
+- **Type**: Mandatory Warning
+- **Reason**: Reservation from external system missing Profile data segment (NM)
+- **Solution**: Verify message contains all required segments. May be booking change to existing reservation
+
+### Rate Errors
+
+**Error**: Rate Category End Date less than Rate Code End Date
+- **Direction**: External > OPERA
+- **Module**: Rates
+- **Type**: Mandatory Warning
+- **Reason**: Rate setup validation failure
+- **Solution**: Extend Rate Category End Date in PMS. Reprocess rate or send new rate
+
+**Error**: Rate code Begin date cannot be null
+- **Direction**: External > OPERA
+- **Module**: Rates
+- **Type**: Mandatory Warning
+- **Reason**: Downloaded rate category missing Begin Sell Date in TPI formatted message
+- **Solution**: Contact GDS provider (e.g. IHG Helpdesk) to correct rate. May need Clarify solution #37968
+
+### Configuration Errors
+
+**Error**: Value 'GUEST' for mandatory conversion code not found
+- **Direction**: External > OPERA
+- **Module**: OXI Configuration
+- **Type**: Mandatory Warning
+- **Reason**: Conversion table code missing (includes COMPANY, SOURCE, GROUP, TRAVEL)
+- **Solution**: Configure missing conversion codes
+
+**Error**: Int_code_conversion.ConvertCodes Returns Fail 2
+- **Direction**: External > OPERA
+- **Module**: OXI Configuration
+- **Type**: Optional Warning
+- **Reason**: Internal value not recognized. Conversion code missing
+- **Solution**: Define missing conversion code
+
+**Error**: Interface is not setup for external system resort
+- **Direction**: OPERA > External
+- **Module**: OXI Configuration
+- **Type**: Mandatory Warning
+- **Reason**: External system resort name incorrect or mistyped
+- **Solution**: Verify external system resort name is correctly spelled and configured
+
+**Error**: HX Download Error - Could not set the session variables
+- **Direction**: OPERA > External
+- **Module**: OXI Configuration
+- **Type**: Mandatory Warning
+- **Reason**: CRS resort name incorrect or mistyped
+- **Solution**: Verify CRS resort name in interface configuration
+
+### AIB (Automated Inventory Balancing) Errors
+
+**Error**: AIB: Maximum Days Allowed per Request: 30
+- **Direction**: OPERA > External
+- **Module**: AIB, Automated Inventory
+- **Type**: Mandatory Warning
+- **Reason**: AIB request exceeds maximum allowed days (30)
+- **Solution**: Reduce request date range to within 30 days
+
+**Error**: AIB-Build-Request Error: Invalid date (date in the past)
+- **Direction**: OPERA > External
+- **Module**: AIB
+- **Type**: Mandatory Warning
+- **Reason**: AIB request date is in past. May happen in test environment with outdated PMS date
+- **Solution**: Verify system date is current. Sync with production if needed
+
+**Error**: AIB: Exceeded the Maximum Allowed Requests per Day
+- **Direction**: OPERA > External
+- **Module**: AIB, Automated Inventory
+- **Type**: Mandatory Warning
+- **Reason**: Request quota for day has been used
+- **Solution**: Retry request the next day
+
+### Room Related Errors
+
+**Error**: Failure on SRP. One or more segments booked at RACK
+- **Direction**: OPERA > External
+- **Module**: Inventory
+- **Type**: Mandatory Warning
+- **Reason**: Room type not associated with SRP
+- **Solution**: Room will be booked at rack rate per TIP config. Update room/SRP association
+
+**Error**: SRP has booked GNRs, cannot be cancelled or deleted
+- **Direction**: External > OPERA
+- **Module**: Reservation/Block
+- **Type**: Mandatory Warning
+- **Reason**: SRP block has bookings
+- **Solution**: Cannot delete SRP block with existing reservations
+
+## Known Pegasus Errors
+
+### Data and Message Format Errors
+
+**Error**: AMF Parse routine was unable to parse this message
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Verify message format complies with OXI specification
+
+**Error**: Invalid data supplied in element - inserted default value
+- **Direction**: OPERA > External
+- **Module**: Reservation (applies to all)
+- **Type**: Warning
+- **Solution**: Review element in error logs. Verify data format
+
+**Error**: Booker CF ignored due to error - Invalid Booker ID
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Verify booker corporate ID in TIP configuration
+
+**Error**: Corp CF ignored due to error - Invalid Corporate ID
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Check corporate account master records
+
+### Reservation Cancellation/Modification Errors
+
+**Error**: Cannot cancel multiple GNRs
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Must provide unique GNR number to cancel
+
+**Error**: Can't modify cancelled GNR
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Cannot modify previously cancelled GNR
+
+**Error**: Can't modify multiple GNRs
+- **Direction**: OPERA > External
+- **Module**: Reservation
+- **Solution**: Modify found multiple GNRs without unique confirmation number
+
+### Troubleshooting OXI Messages
+
+1. **Identify message direction** (OPERA>Ext or Ext>OPERA)
+2. **Note the module** (Reservation, Block, Inventory, AIB, etc.)
+3. **Review error description and reason**
+4. **Execute recommended solution**
+5. **Check TIP configuration** in OPERA admin for related settings
+6. **Verify external system connectivity**
+7. **Review system logs**: Help > System Information > View Log Files
+8. **For persistent errors**, contact Oracle Support with error code and details
+
+# Opera PMS (Property Management System)
+
+## System Error Log and Error Messages
+
+Opera system errors are logged and can be viewed in the System Error Log. Common
+errors and their causes are documented below. Error messages typically include a
+description, cause, and suggested solution.
+
+### Database and Connection Errors
+
+- **ERR_DB_CONNECTION_FAILED**: Database connection failed. Verify Oracle database is running,
+  network connectivity exists, and credentials are correct. Check database server logs.
+- **ERR_DB_TIMEOUT**: Database query timed out. Query may be too complex or resources exhausted.
+  Check database performance, run ANALYZE TABLE, rebuild indexes if needed.
+- **ERR_DB_LOCK**: Database lock detected. Another user is accessing the same record. Wait
+  for the lock to clear or restart the database connection.
+- **ERR_DB_CORRUPTION**: Database corruption detected. Backup and restore from recent backup.
+  Contact Oracle support if problem persists.
+
+### Authentication and Authorization Errors
+
+- **ERR_INVALID_CREDENTIALS**: Username or password invalid. Verify credentials are correct.
+  Check that user account is active and not expired in Property Master.
+- **ERR_PERMISSION_DENIED**: User does not have permission for this action. Check user role
+  and menu permissions in Property Master > Users > Role Configuration.
+- **ERR_ACCOUNT_LOCKED**: User account locked after multiple failed login attempts. Contact
+  admin to unlock account or wait for automatic unlock (typically 30 minutes).
+- **ERR_SESSION_EXPIRED**: Session expired due to inactivity. Log in again.
+
+### File and Export Errors
+
+- **ERR_FILE_NOT_FOUND**: File does not exist or cannot be accessed. Verify file path and
+  that file exists. Check file/folder permissions.
+- **ERR_FILE_WRITE_FAILED**: Unable to write to file (disk full, permission denied, or bad
+  path). Check disk space, permissions, and file path syntax.
+- **ERR_EXPORT_FAILED**: Export operation failed. Could be due to missing data, invalid
+  format, or file system error. Check export log for details.
+- **ERR_IMPORT_FAILED**: Import operation failed. Verify file format matches requirements.
+  Check that file is not corrupted.
+
+### Reservation and Booking Errors
+
+- **ERR_RESERVATION_NOT_FOUND**: Reservation record not found. Verify confirmation number
+  or guest name is correct.
+- **ERR_ROOM_NOT_AVAILABLE**: Room is not available for requested dates. Check room status
+  and availability in Rooms module.
+- **ERR_RATE_NOT_AVAILABLE**: Rate not available for selected room type or dates. Verify
+  rate setup in Rate Master.
+- **ERR_DUPLICATE_RESERVATION**: Duplicate reservation already exists. Check for existing
+  reservations before creating new one.
+- **ERR_INVALID_DATES**: Check-out date must be after check-in date. Verify date ranges.
+
+### Payment and Billing Errors
+
+- **ERR_PAYMENT_DECLINED**: Payment was declined by payment processor. Verify card details,
+  available funds, and payment gateway connectivity.
+- **ERR_INVALID_AMOUNT**: Payment amount is invalid or exceeds maximum allowed. Verify amount.
+- **ERR_FOLIO_NOT_POSTED**: Folio cannot be posted. Guest may have outstanding balance.
+  Post outstanding charges or adjust folio details.
+- **ERR_BILLING_FAILED**: Billing operation failed. Check billing settings and guest account status.
+
+### Printer and Report Errors
+
+- **ERR_PRINTER_NOT_FOUND**: Printer not found or not configured. Add printer in Settings >
+  Printers. Verify printer is online and network accessible.
+- **ERR_PRINT_FAILED**: Print job failed. Check printer status, paper, and ink/toner. Restart
+  print spooler if stuck jobs exist.
+- **ERR_REPORT_GENERATION_FAILED**: Report could not be generated. Verify report template
+  exists and data is available. Check report parameters.
+
+### Network and Connectivity Errors
+
+- **ERR_NETWORK_TIMEOUT**: Network timeout/connection lost. Check network connectivity, firewall
+  rules, and server availability. Restart application.
+- **ERR_INVALID_URL**: URL/hostname is invalid. Verify server address is correct and resolvable.
+- **ERR_SSL_CERTIFICATE_ERROR**: SSL certificate error (expired, self-signed, or invalid).
+  Update certificate or disable SSL verification (not recommended for production).
+
+### Application and Configuration Errors
+
+- **ERR_INVALID_CONFIGURATION**: Configuration error detected. Check configuration files and
+  settings. Refer to configuration guide or contact support.
+- **ERR_MISSING_REQUIRED_FIELD**: Required field is empty. Complete all required fields before
+  saving record.
+- **ERR_INVALID_VALUE**: Field contains invalid value (e.g. non-numeric in numeric field).
+  Correct value and resubmit.
+- **ERR_OUTDATED_VERSION**: Software version is outdated. Update to latest version or contact
+  support for version compatibility.
+
+### GDS and External Interface Errors
+
+- **ERR_GDS_CONNECTION_FAILED**: Connection to Global Distribution System (GDS) failed. Verify
+  network connectivity and GDS server status. Check credentials.
+- **ERR_GDS_TIMEOUT**: GDS request timed out. Retry request or contact GDS provider.
+- **ERR_OTA_ERROR**: Online Travel Agency (OTA) integration error. Check API credentials and
+  connection settings. Review OTA integration logs.
+
+### Backup and Maintenance Errors
+
+- **ERR_BACKUP_FAILED**: Backup operation failed. Verify backup destination has sufficient
+  space and is accessible. Check backup logs for details.
+- **ERR_RESTORE_FAILED**: Restore operation failed. Verify backup file is valid and accessible.
+  Contact support if corruption suspected.
+- **ERR_MAINTENANCE_FAILED**: System maintenance operation failed. Check system logs and retry.
+
+## Opera Error Log Location
+
+- Windows: `C:\Program Files\Oracle\OPERA\logs\error.log` or path configured in installer.
+- Linux: `/opt/opera/logs/error.log` or path configured during installation.
+- View in OPERA: Help > System Information > View Log Files.
+
+## Troubleshooting Steps for Opera Errors
+
+1. **Identify the error**: Note error code, message, timestamp, and context (what were you doing?).
+2. **Check the error log**: Open Help > System Information > View Log Files to get detailed information.
+3. **Check connectivity**: `ping <database-server>` and verify server is accessible.
+4. **Restart services**: Restart OPERA application or Windows/Linux service.
+5. **Check disk space**: Ensure database server has sufficient free space.
+6. **Review recent changes**: Did any configuration/user permission changes occur before error?
+7. **Google/Search**: Search error code in Oracle documentation or knowledge base.
+8. **Escalate**: Contact Oracle Support with error code, log file excerpt, and steps to reproduce.
+
+## Common Opera PMS Warnings (Non-Fatal)
+
+- **WARN_LOW_INVENTORY**: Room inventory is low. Verify room setup and availability.
+- **WARN_RATE_CHANGE**: Rate was changed during reservation. Rebook guest if desired.
+- **WARN_EXPIRING_RESERVATION**: Reservation expiring soon. User should complete check-in.
+- **WARN_DEPRECATION**: Feature will be deprecated in future version. Plan upgrade strategy.
+
+## Service and Startup Issues
+
+- Ensure service is running: `systemctl status opera` (Linux) or check Windows
+  Service "Opera PMS" status.
+- Restart service: `systemctl restart opera` (Linux) or via Services.msc (Windows).
+- Check logs: `/opt/opera/logs/` (Linux) or `C:\Opera\Logs` (Windows).
+- Verify database connectivity: use `tnsping` or Oracle connector tool.
+- Confirm that Oracle database listener is running on port 1521.
+
+## UI and Performance Issues
+
+- Clear browser cache (Ctrl+Shift+Del) before logging in.
+- Restart application or IIS service if UI is unresponsive.
+- Check database query performance: review slow queries in Oracle logs.
+- Increase JVM memory if app is running on heavy load: modify opera.conf.
+- Verify network latency between PMS server and client machines.
+
+## Printer Configuration and Printing Issues
+
+- Navigate to Settings > Printers in Opera PMS.
+- Click "Add Printer" and provide printer network IP or hostname.
+- Verify printer is on same network segment and IP is reachable (`ping <ip>`).
+- Test printer connectivity: use "Test Print" button in Settings.
+- Ensure printer has proper drivers installed on the PMS server.
+- Check printer queue: clear stuck jobs via Windows Print Spooler if needed.
+  - Run: `net start spooler` / `net stop spooler`
+- For network printers, verify TCP/IP printing (port 9100) is enabled.
+- Assign printer to specific properties/departments in Opera module settings.
+
+## Database and Data Issues
+
+- Backup database before any changes: use Oracle RMAN or Windows backup tool.
+- Verify table locks: query `v$lock` or use Oracle SQL Developer.
+- Run database maintenance: analyze tables, rebuild indexes monthly.
+- Check disk space on database server: `df -h` (Linux) or `Disk Manager` (Windows).
+- For slow queries, enable SQL tracing and review explain plans.
+- Check for connection pool exhaustion in application logs.
+
+## Guest Account and Reservation Issues
+
+- Verify guest account permissions in Opera admin panel.
+- Check expiry dates on guest accounts; renew if needed.
+- Confirm room status codes are correctly defined.
+- Reset guest password if locked: use admin panel > Guests > Reset.
+- Review audit logs for unauthorized account modifications.
+
+## Network and Connectivity Issues
+
+- Ensure PMS server is reachable: `ping <pms-server-ip>`.
+- Verify firewall rules allow port 80/443 (HTTP/HTTPS) and database port (1521).
+- Check router/switch for VLAN or port-based access restrictions.
+- Test DNS resolution: `nslookup opera.local` or equivalent.
+- Monitor network bandwidth; high latency can cause timeouts.
+
+# Outlook Mail
+
+## Memory Issues and Performance
+
+- Large mailbox size can cause high memory usage.
+- Archive old emails: Right-click folder > "Archive" or use AutoArchive rules.
+- Go to File > Options > Advanced > AutoArchive Settings.
+- Set archive threshold (e.g. archive items older than 6 months).
+- Limit number of recent items cached in Outlook settings.
+- Close unnecessary PST files (Data Files) in File > Account Settings > Data Files.
+- Disable unnecessary add-ins if Outlook is slow: File > Options > Trust Center >
+  Trust Center Settings > Disabled Items.
+
+## Mailbox Size and Storage
+
+- Check mailbox size: File > Info (shows quota and current usage).
+- If quota warning appears, archive emails to a PST file.
+- Delegate cleanup: move old emails to Archive folder (Exchange feature).
+- Emptying Deleted Items folder is critical; deleted items count toward quota.
+- Request increase from IT/exchange admin if approaching limit.
+- For PST files, apply 20GB limit recommendations in File > Options > Accounts
+  > Account Settings.
+
+## Archiving Best Practices
+
+- Use Outlook's built-in Archive feature for Exchange accounts.
+- For PST files, manually create archive folder and drag old messages.
+- Set retention policies via File > Options > Advanced > AutoArchive.
+- Archive frequency: monthly or quarterly based on usage.
+- Keep archive PST files on network share for backup and access.
+- Document archive naming: e.g. Archive_2024_Q1.pst.
+
+## Email Sync and Sync Issues
+
+- Check Account Settings: File > Account Settings > double-click account.
+- Verify IMAP/POP/Exchange settings (server, port, encryption).
+- Test connection: Account Settings > Test Account Settings button.
+- Restart Outlook or toggle Offline Mode (Ctrl+Shift+H) if sync stalls.
+- Check mailbox.ost file: may be corrupted; delete and resync (requires
+  re-download).
+- Monitor account storage: disable sync for large folders if necessary.
+
+## Permissions and Shared Mailbox Issues
+
+- For shared mailbox, verify account has delegate permissions.
+- Open shared mailbox: File > Open > Other User's Folder.
+- Confirm account is in "FullAccess" delegation on Exchange server.
+- Check permissions via `Get-MailboxPermission` in Exchange PowerShell.
+- Renew permissions if account expires or delegation is removed.
+
+## Attachment and Download Issues
+
+- Large attachments can timeout; file size limit may apply (check server policy).
+- For blocked attachment types, contact IT to whitelist if necessary.
+- Save attachment to temp folder first if attachment opens in browser.
+- Check network speed; slow connections may cause timeouts.
+- Clear Outlook cache: Delete the Outlook profile and recreate if persistent.
+
+## Encryption and Security
+
+- S/MIME certificate must be installed: File > Options > Trust Center.
+- For encrypted emails, ensure certificate is imported on client.
+- Prompt for digital signature: Tools > Trust Center > Security > Digital
+  Signatures > Check "Always sign".
+- If certificate expired, request new one from IT security.
+
+## Add-ins and Plugin Issues
+
+- Disable suspect add-ins: File > Options > Trust Center > Disabled Items.
+  Check recently disabled and enable one at a time to isolate.
+- Re-enable SafeMode restart: hold Ctrl while starting Outlook.
+- Update add-ins to latest version via vendor website or update manager.
+- Remove unused add-ins entirely if they conflict with operations.
+
+# Veeam Backup and Replication
+
+## Installation and Initial Setup
+
+- Download latest Veeam installer from veeam.com (account required).
+- Ensure SQL Server Express is installed or provide SQL instance.
+- Run installer as Administrator; select default ports unless conflicts exist.
+- Configure backup repository during setup (NAS, DAS, or local storage).
+- Verify backup repository has minimum 10% free space.
+- After install, start Veeam Backup & Replication service in Services.msc.
+
+## Backup Job Configuration
+
+- Create Job > select VM or physical machine to protect.
+- Define backup frequency: hourly, daily, weekly as needed.
+- Set retention policy: keep point-in-time copies for X days.
+- Choose proxy server (close to network) for optimal transfer.
+- Select backup repository with sufficient free space.
+- Enable incremental/full backup schedule (e.g. full weekly, daily incremental).
+
+## Backup Job Failures
+
+- Open Veeam Backup & Replication > Sessions tab to review job history.
+- Click failed job > check "Job > Sessions > [Job Name]" for error details.
+- Common causes: insufficient repository space, credential expiry, network timeout.
+- Check VSS writers on Windows VM: `vssadmin list writers` (all must show
+  "Stable").
+- Restart Volume Shadow Copy service if writers show error: `net stop vss` /
+  `net start vss`.
+- Verify VM network connectivity; ensure backups can reach proxy server.
+- Increase job timeout in Job Settings if backup is timing out.
+
+## Repository and Storage Issues
+
+- Monitor repository free space: must be > 10% for new backups.
+- Delete old backup points if space is critical: right-click > Remove Restore
+  Point.
+- Backup repository should be on dedicated disk (not OS disk if possible).
+- Use fast storage (SSD) for repository if available for faster restores.
+- Configure backup copy jobs to offload old backups to external/tape storage.
+- Verify repository path is accessible from all proxy servers.
+
+## Restore Operations
+
+- Right-click backup job > Restore > choose restore type (VM, file, application).
+- For VM restore: select restore point date, then restore to new VM or overwrite
+  existing.
+- For file-level restore: mount backup, browse files, extract needed items.
+- For application restore (SQL, Exchange), use app-aware restore option.
+- Test restore regularly to ensure backup integrity (monthly recommended).
+- Restore to temporary location first for validation, then swap to production.
+
+## Proxy and Network Configuration
+
+- Configure Proxy Server: Backup Infrastructure > Proxy > add new.
+- Assign proxy to each job for load balancing across multiple servers.
+- Proxy should be on same network segment as VM host for best throughput.
+- Verify firewall allows communication on ports 6160-6162 (Veeam default).
+- Monitor proxy resource usage (CPU, memory, network) in Performance view.
+- Disable unused proxies to reduce overhead.
+
+## Credentials and Authentication
+
+- Verify backup credentials: Backup Infrastructure > Credentials.
+- Test credential: right-click credential > Test.
+- Renew credentials if account password changed in AD.
+- Check credential expiry: some service accounts may expire after 90 days policy.
+- Use dedicated service account (not shared admin) for backup jobs.
+- Update credentials in job if underlying service account is modified.
+
+## Database and Backup Configuration
+
+- Veeam uses SQL database for job configuration and restore points metadata.
+- Backup the Veeam configuration database regularly: right-click Backup
+  Database > Backup Configuration.
+- Monitor database file size; can grow in large environments.
+- If database becomes corrupted, restore from backup or rebuild configuration.
+- Run Veeam Database maintenance monthly: Start Menu > Programs > Veeam >
+  Configuration > Backup Database > Maintenance.
+
+## Tape and Cloud Backup
+
+- For tape backup, install and license tape library drivers.
+- Configure backup copy job to tape; set expiry policy (e.g. 7-year retention).
+- For cloud backup (AWS, Azure), configure credentials and storage location in
+  Job.
+- Cloud backup bandwidth may be throttled to avoid WAN saturation.
+- Verify cloud credentials and blob storage access before running cloud jobs.
+
+# Onity Server
+
+## Server Installation and Configuration
+
+- Ensure Onity server runs as Windows Service "Onity Server" or similar.
+- Verify SQL Server database is installed and accessible (test connection).
+- Configure ODBC DSN for Onity database: Control Panel > Administrative Tools >
+  ODBC Data Sources.
+- Test SQL connectivity: use ODBC Test tool or SQL Server Management Studio.
+- Confirm database user account is properly provisioned with required tables.
+
+## Lock Communication
+
+- Verify all locks are powered on and within network range.
+- Ping lock IP addresses to confirm network reachability: `ping <lock-ip>`.
+- Check lock firmware version in Onity admin tool; update if outdated.
+- Ensure locks are on same subnet as server (no routing issues).
+- Monitor lock status in Onity admin panel daily.
+
+## Card Encoding and Reader Issues
+
+- Card encoding fails if encoder USB driver is not installed on server.
+- Download and install latest card encoder drivers from Onity or manufacturer.
+- Verify card type matches reader format (mifare, HID, etc.).
+- Test card encoding: use "Test Card" function in Onity admin.
+- Check reader connectivity: USB or network readers must be powered and
+  connected.
+- For network readers, verify IP and port configuration (typically 9100).
+
+## Database and Access Control
+
+- Database must contain valid guest records and lock assignments.
+- Check database schema: verify tables like Guest, Lock, Access exist.
+- Grant database user account "db_datareader" and "db_datawriter" permissions
+  minimum.
+- Run database integrity check monthly: SQL Server Management Studio > Tasks >
+  Check Database Integrity.
+- Backup database before major changes; consider offsite backup for DR.
+
+## Network Connectivity
+
+- Configure network for locks: all on dedicated VLAN if high access frequency.
+- Verify firewall allows communication between server and locks (port varies).
+- Check switch/router: ensure no QoS limits or port shutdowns on lock ports.
+- Monitor network latency; high latency can cause access delays (measure with
+  `ping`).
+- Use wired network for locks (PoE preferred) rather than wireless for
+  reliability.
+
+## User and Permission Management
+
+- Create user accounts in Onity admin panel for staff (housekeeping, security,
+  management).
+- Assign roles: Manager, Supervisor, Operator based on job function.
+- Set expiry dates on temporary staff accounts; remove expired accounts monthly.
+- Review audit logs monthly to track access changes and unauthorized attempts.
+- Change default admin password immediately after installation.
+
+# Linux Server Maintenance
+
+- Check disk usage frequently with `df -h` and inspect large directories via
+  `du -sh /var/log/*` or similar.
+- Monitor running processes using `top`, `htop` or `ps aux --sort=-%mem`.
+- Manage systemd services: `systemctl status <service>`, `systemctl restart`
+  for quick restarts; view logs with `journalctl -u <service> -n 50`.
+- Keep packages up to date (`apt update && apt upgrade` on Debian/Ubuntu or
+  `yum update` on RHEL/CentOS). Reboot if a kernel update was installed.
+- Verify network configuration with `ip addr`, `ip route`; check listening
+  ports with `ss -tulpn`.
+- Use `ping` or `mtr` to diagnose connectivity and latency to remote hosts.
+
+# Windows Quick Tips
+
+- Use `Task Manager` (Ctrl+Shift+Esc) to kill unresponsive processes or see
+  CPU/memory spikes.
+- Run `sfc /scannow` and `chkdsk /f` for file system corruption.
+- Reset network stack: `netsh int ip reset` and `netsh winsock reset`.
+- Check event logs (`eventvwr.msc`) under System and Application for errors.
+- Use `ipconfig /all` to view current network settings and `ping` for testing.
+
+## Troubleshooting Access Denials
+
+- If guest cannot access room despite valid check-in, check lock status and
+  database.
+- Verify lock is not in maintenance mode or "no-access" state.
+- Confirm guest record exists in database with correct room assignment.
+- Check card has been successfully encoded: test in card reader.
+- Review access control logs for guest and timestamp mismatch.
+
+## Firmware and Maintenance
+
+- Update lock firmware when available via Onity support (do during off-hours).
+- Schedule firmware updates monthly if patches are frequent.
+- Monitor lock battery levels; replace batteries before critical threshold.
+- Document all lock changes: firmware version, battery replacement, maintenance.
+- Keep spare lock components on hand (batteries, encoders, cables).
+
+# Internet Connectivity
+
+## Basic Connectivity Checks
+
+- Check physical connection: verify cable is plugged in (green/orange light on
+  port).
+- Check interface status: `ip link show` (Linux) or `ipconfig` (Windows).
+- Ping default gateway: `ping <gateway-ip>` (typically 192.168.1.1 or similar).
+- Ping external DNS: `ping 8.8.8.8` (Google) or `ping 1.1.1.1` (Cloudflare).
+- Ping by hostname: `ping google.com` to verify DNS resolution.
+
+## Network Configuration
+
+- Check IP address assignment: `ip addr show` (Linux) or `ipconfig /all`
+  (Windows).
+- Verify DHCP is enabled if IP is dynamic; check lease time and renewal.
+- For static IP, verify subnet mask and gateway are correct.
+- Check DNS servers: should show at least one (2 preferred).
+- Test DNS: `nslookup google.com` or `nslookup 8.8.8.8`.
+
+## Troubleshooting No Internet
+
+- Restart network interface: `sudo systemctl restart NetworkManager` (Linux) or
+  `ipconfig /release` then `ipconfig /renew` (Windows).
+- Check router: ping router IP; restart router if no response.
+- Check modem: restart modem (power cycle 2 minutes).
+- Check WAN connection status on router admin panel (usually 192.168.1.1).
+- Review router logs for WAN link errors.
+
+## Wi-Fi Issues (if wireless)
+
+- Verify network is visible: `nmcli device wifi list` (Linux) or list networks
+  (Windows).
+- Verify you are connected to correct SSID (not a guest network by mistake).
+- Check signal strength: should be > -70dBm for good speed.
+- Move closer to AP if signal is weak.
+- Restart Wi-Fi radio: uncheck "Enable Wi-Fi" in settings, wait 10s, re-enable.
+- Forget network and reconnect (forces re-authentication).
+- Update Wi-Fi driver if connection is unstable.
+
+## Firewall and Security
+
+- Disable firewall temporarily to verify it is not blocking internet; leave
+  disabled only for testing.
+- Re-enable firewall after testing: `sudo ufw enable` (Linux) or Windows
+  Defender Firewall.
+- Add exception to firewall for applications that need internet access.
+- Check for proxy configuration: if using corporate proxy, verify proxy settings
+  are correct.
+- Clear proxy settings if office network reconnected elsewhere.
+
+## DNS Issues
+
+- If websites load by IP but not by name, DNS is likely problem.
+- Try alternative DNS: use 8.8.8.8 (Google) or 1.1.1.1 (Cloudflare).
+- Flush DNS cache: `sudo systemctl restart systemd-resolved` (Linux) or `ipconfig
+  /flushdns` (Windows).
+- Check `/etc/resolv.conf` (Linux) or DNS settings in Network Adapter
+  (Windows).
+- Test DNS propagation: use online tool if recent DNS change made.
+
+## Bandwidth and Latency
+
+- Check WAN speed: use speedtest.net or iperf if available.
+- Monitor latency: `ping -c 10 google.com` shows min/avg/max ms.
+- Latency > 100ms indicates potential network issues.
+- Check for heavy downloads or backups consuming bandwidth.
+- Use netstat to check active connections: `netstat -an | grep ESTABLISHED`.
+
+## VPN and Remote Connection
+
+- If using VPN, verify VPN is connected and showing active tunnel.
+- Check VPN logs if disconnecting frequently.
+- Restart VPN client if intermittent connection loss.
+- Verify VPN credentials if authentication errors appear.
+- Test split tunneling configuration (some traffic local vs VPN).
+
+# Windows Command-Line Essentials
+
+## Network Diagnostics
+
+- `ipconfig /all` - show all network adapter settings with detailed info.
+- `ipconfig /release` and `ipconfig /renew` - renew DHCP lease.
+- `ipconfig /flushdns` - clear DNS cache.
+- `ping <hostname>` - test connectivity and latency (e.g. `ping google.com`).
+- `nslookup <hostname>` - lookup DNS resolution.
+- `tracert <hostname>` - trace network path (shows each hop).
+- `netstat -ano` - show active connections with process IDs.
+- `netstat -an | findstr ":80 :443"` - show HTTP/HTTPS connections.
+
+## System Repair and Maintenance
+
+- `sfc /scannow` - system file checker (run as Administrator; repairs corrupted
+  files).
+- `chkdsk /f` - check disk for errors (schedule on next reboot).
+- `DISM /Online /Cleanup-Image /RestoreHealth` - repair OS image.
+- `Get-EventLog Application -Newest 100` (PowerShell) - view recent application
+  errors.
+- `wmic logicaldisk get name,size,freespace` (PowerShell) - disk space summary.
+
+## Process and Service Management
+
+- `tasklist` - show running processes.
+- `tasklist /v` - detailed process list with memory usage.
+- `taskkill /IM explorer.exe /F` - kill process by name (replace explorer.exe).
+- `taskkill /PID 1234 /F` - kill process by process ID.
+- `Services.msc` - GUI for stopping/starting services.
+- `net start <service>` and `net stop <service>` - start/stop by command.
+- `Get-Service` (PowerShell) - list all services and status.
+
+## File and Directory
+
+- `dir` - list files and folders.
+- `dir /s /b <folder>` - recursive listing without formatting.
+- `attrib` - show/change file attributes.
+- `del /S /Q <folder>` - delete folder and all contents (use carefully!).
+- `robocopy` - advanced file copy/sync tool.
+- `icacls <path>` - show/modify file permissions.
+
+## Disk and Storage
+
+- `diskpart` - disk partitioning tool (advanced).
+- `wmic logicaldisk get name,size,freespace` - show disk usage.
+- `cipher /e /s:<path>` - enable file encryption.
+- `cipher /d /s:<path>` - disable file encryption.
+- `format <drive>` - format drive (destructive; use with caution).
+
+## User and Group Management
+
+- `whoami` - show current user.
+- `net user` - list local users.
+- `net user <username> /active:yes` - enable user account.
+- `net user <username> /active:no` - disable user account.
+- `net localgroup` - list local groups.
+- `net group <groupname> /domain` (on domain) - show domain group members.
+
+## Registry and Configuration
+
+- `regedit` - open Registry Editor (GUI).
+- `reg query "HKLM\<path>"` - query registry key.
+- `reg add "HKLM\<path>" /v <value>` - add registry entry.
+- `reg delete "HKLM\<path>" /v <value>` - delete registry entry.
+- **Warning:** Incorrect registry edits can disable Windows; always backup first.
+
+## Windows Update and Patching
+
+- `wuauclt /detectnow` - trigger Windows Update scan.
+- `wuauclt /updatenow` - trigger download and install of pending updates.
+- `gpupdate /force` - force Group Policy update (domain environments).
+- `systeminfo` - show OS version, patches, and hardware info.
+
+# GDS (Global Distribution System) Error Handling
+
+## Overview
+
+GDS (Global Distribution System) property uploads are managed through the GDS
+Property Upload feature. Errors during GDS uploads are tracked and can be
+reprocessed after correction. This section contains all known GDS errors from
+official Oracle documentation.
+
+## GDS Upload Errors - Comprehensive Reference
+
+### Property Configuration Errors
+
+- **Property Upload Message Error**: Upload message failed to process
+  - **Cause**: Property data is incorrect or incomplete
+  - **Solution**: Check property data and correct in Status Update screen
+
+- **GDS Property Configuration Missing**: Property not configured for GDS distribution
+  - **Cause**: Property master setup incomplete
+  - **Solution**: Set up property in GDS Property Upload configuration
+
+- **Invalid Property ID**: Property ID does not exist or is invalid
+  - **Cause**: Property identifier is wrong or doesn't match GDS system
+  - **Solution**: Verify property identifier matches GDS records
+
+- **Missing Required Property Data**: Required field missing in property upload
+  - **Cause**: Property Master has incomplete data
+  - **Solution**: Complete all required fields in Property Master
+
+- **Property Data Validation Failure**: Property data failed validation rules
+  - **Cause**: Data doesn't meet GDS specification requirements
+  - **Solution**: Review data format and requirements. Correct values.
+
+### Connectivity and Communication Errors
+
+- **Pegasus Connection Error**: Connection to Pegasus failed
+  - **Cause**: Network issue or Pegasus server offline
+  - **Solution**: Verify network connectivity and Pegasus server status
+
+- **GDS Server Unreachable**: Cannot reach GDS server
+  - **Cause**: Network timeout or GDS server down
+  - **Solution**: Verify GDS endpoint URL. Check firewall rules. Retry later.
+
+- **Communication Method Not Configured**: GDS communication parameters not set
+  - **Cause**: Missing GDS connection configuration
+  - **Solution**: Configure GDS in Setup > GDS Property Upload > Configuration
+
+### Rate and Inventory Errors
+
+- **Rate Upload Failed**: Rate data failed to upload to GDS
+  - **Cause**: Rate format invalid or currency mismatch
+  - **Solution**: Verify rate setup and currency settings
+
+- **Inventory Out of Sync**: Room inventory doesn't match GDS records
+  - **Cause**: Rooms sold outside GDS without sync
+  - **Solution**: Manually synchronize inventory. Check OXI for sync issues.
+
+- **Rate Currency Mismatch**: Rate currency doesn't match GDS currency
+  - **Cause**: Property currency different from GDS requirement
+  - **Solution**: Verify and correct currency in rate setup
+
+### Data Format Errors
+
+- **Invalid Date Format**: Date in upload message doesn't match GDS format
+  - **Cause**: Date format specification not followed
+  - **Solution**: Use YYYY-MM-DD format or GDS-specified format
+
+- **Invalid Field Value**: Field contains invalid data type
+  - **Cause**: Text in numeric field or wrong format
+  - **Solution**: Correct field value to match specification
+
+- **Missing Mandatory Field**: Required GDS field is empty
+  - **Cause**: Incomplete property setup
+  - **Solution**: Complete all mandatory fields before upload
+
+## GDS Error Handling Workflow
+
+1. **Identify Error**: Setup > System Configuration > Channels > GDS Property Upload > Error Handling
+2. **Review Details**: Click error to view full message and description
+3. **Identify Root Cause**: Read error explanation and reason section
+4. **Correct Data**: Go to Status Update screen, correct property data or configuration
+5. **Reprocess**: Return to Error Handling, locate by Message ID, click Reprocess
+6. **Monitor Status**: Check message status changes (ERROR → PENDING → PROCESSED)
+7. **Verify Success**: Confirm property data is updated in GDS
+
+## GDS Property Upload Status States
+
+- **ERROR**: Upload failed and must be corrected before retry
+- **PENDING**: Message is queued and awaiting reprocessing
+- **PROCESSING**: Message is currently being uploaded to GDS
+- **PROCESSED**: Message was successfully uploaded to Pegasus and distributed to GDS
+- **RETRY**: Automatic retry is in progress for failed message
+- **BLOCKED**: Manual intervention required; cannot be auto-reprocessed
+
+## Property Master Requirements for GDS Upload
+
+Verify these fields are complete for successful GDS upload:
+- Property ID (must match GDS system)
+- Property Name
+- Property Currency
+- Address and Country
+- Property Type
+- Check-in/Check-out times
+- Mandatory Rate Setup
+- Room Types and Inventory
+- GDS Configuration/Codes
+
+## GDS Troubleshooting Checklist
+
+1. Verify GDS connection is active and authenticated
+2. Confirm property ID matches between OPERA and GDS
+3. Check rate currency matches property currency
+4. Ensure all mandatory Property Master fields are populated
+5. Verify room inventory is accurate and not oversold
+6. Test with small data set before full upload
+7. Check GDS system doesn't have duplicate properties
+8. Review GDS upload logs if available from provider
+9. Contact GDS provider (Pegasus/Sabre/Amadeus) for GDS-side errors
+10. Escalate to Oracle Support if connection errors persist
+
+# OTA (Online Travel Agency) Integration Errors
+
+## Common OTA Errors
+
+- **OTA API Connection Failure**: Cannot connect to OTA provider API. Verify API
+  endpoint, credentials, and network connectivity.
+- **Invalid OTA Credentials**: OTA username/password is invalid. Update credentials
+  in OTA integration setup.
+- **OTA Rate Error**: Rate upload to OTA failed. Verify rate data is complete and
+  complies with OTA specifications.
+- **OTA Inventory Sync Failure**: Inventory synchronization with OTA failed.
+  Manually sync or check OTA inventory status.
+- **OTA Reservation Sync Error**: Reservation from OTA could not be synced to
+  OPERA. Check reservation data and OTA sync logs.
+
+## OTA Integration Troubleshooting
+
+1. Verify OTA credentials are correct and not expired.
+2. Check network connectivity to OTA provider.
+3. Review OTA integration logs for specific error messages.
+4. Verify rate and inventory setup matches OTA requirements.
+5. Manual sync: trigger from OTA Integration screen if automatic sync fails.
+6. Contact OTA provider support if persistent connectivity issues.
+
+# End-of-Day (EOD) Troubleshooting
+
+## Overview
+
+End-of-Day (EOD) is a critical daily process that finalizes all transactions,
+posts folios, generates reports, and backs up the database. This section contains
+comprehensive EOD errors and solutions.
+
+## Common EOD Errors - Detailed Solutions
+
+### Process Execution Errors
+
+- **EOD Backup Failed**: Daily backup failed during EOD process
+  - **Cause**: Backup destination doesn't exist or is inaccessible. Insufficient disk space
+  - **Solution**: Verify backup path exists and has write permissions. Check free disk space (at least 50GB recommended). Correct path if needed.
+
+- **EOD Posting Timeout**: EOD posting took too long and timed out
+  - **Cause**: Too many transactions, slow database, or resource contention
+  - **Solution**: Increase timeout in EOD configuration. Run EOD during low-traffic hours (2-5 AM). Optimize slow database queries.
+
+- **EOD Process Interrupted**: EOD process was interrupted or cancelled unexpectedly
+  - **Cause**: User closed application, network disconnect, or system crash
+  - **Solution**: Do NOT interrupt EOD once started. Restart from beginning. Verify all transactions are rolled back.
+
+- **Folio Posting Error**: Error posting guest folio during EOD
+  - **Cause**: Outstanding balance, invalid GL account, or data integrity issue
+  - **Solution**: Check folio balances. Post outstanding charges. Verify GL account configuration. Clear blocked transactions.
+
+- **Report Generation Failed**: Daily reports could not be generated
+  - **Cause**: Report template missing, file path invalid, or printer not available
+  - **Solution**: Verify file path exists and is accessible. Check report templates exist. Verify default printer/export location.
+
+- **Journal Entry Error**: GL journal entries failed to post
+  - **Cause**: Invalid GL account, posting period closed, or accounting parameter issue
+  - **Solution**: Check GL account setup. Verify posting period is open. Review accounting configuration.
+
+- **Database Lock**: Database locked during EOD preventing process completion
+  - **Cause**: Another process accessing database or previous EOD not completed
+  - **Solution**: Kill other database connections. Rollback incomplete EOD. Restart EOD process.
+
+- **Insufficient Database Space**: Database ran out of space during EOD
+  - **Cause**: Transaction logs full or tablespace exhausted
+  - **Solution**: Add disk space. Expand tablespace. Archive old transaction logs.
+
+### Report and File Generation Errors
+
+- **Report File Already Exists**: Cannot overwrite existing report file
+  - **Cause**: Report from previous EOD still exists or is open
+  - **Solution**: Delete or rename existing file. Close file if open in application.
+
+- **Report Directory Permission Denied**: Cannot write reports to destination
+  - **Cause**: User or service account lacks write permission
+  - **Solution**: Grant write permissions to EOD user account on report directory
+
+- **Invalid Report Template**: Report template is corrupted or missing
+  - **Cause**: Template file deleted or modified incorrectly
+  - **Solution**: Restore default template from backup or reinstall
+
+- **Export Format Not Supported**: Selected export format not available
+  - **Cause**: Report export module not installed or configured
+  - **Solution**: Install required export module. Update configuration.
+
+### Financial and Posting Errors
+
+- **General Ledger Post Failed**: GL posting for EOD transactions failed
+  - **Cause**: Invalid account, posting period issue, or GL configuration incomplete
+  - **Solution**: Verify GL account exists and is active. Check posting period dates. Review GL setup.
+
+- **Revenue Recognition Error**: Revenue recognition calculation failed
+  - **Cause**: Invalid revenue codes or configuration
+  - **Solution**: Verify revenue codes are valid. Check revenue recognition setup.
+
+- **Payroll Posting Error**: Payroll information failed to post during EOD
+  - **Cause**: Payroll module not configured or payroll data incomplete
+  - **Solution**: Complete payroll setup. Verify employee records and rates.
+
+### Data Integrity Errors
+
+- **Transaction Consistency Check Failed**: Data consistency check found discrepancy
+  - **Cause**: Database corruption or incomplete transaction
+  - **Solution**: Run ANALYZE TABLE and rebuild indexes. If corruption suspected, restore from backup.
+
+- **Orphaned Records Detected**: Records found without parent record
+  - **Cause**: Data integrity constraint violation
+  - **Solution**: Contact Oracle Support. May require data cleanup script.
+
+- **Outstanding Items Blocking EOD**: EOD cannot complete due to outstanding transactions
+  - **Cause**: Unresolved billings or adjustments
+  - **Solution**: Review and post all outstanding items. Clear blocked transaction queue.
+
+## EOD Process Steps (Normal Execution)
+
+1. **Pre-EOD Verification**
+   - Verify all guests have checked out or checkout scheduled
+   - Confirm no open transactions or payment holds
+   - Ensure backup destination is available and has sufficient space
+
+2. **Run Daily Close**
+   - Navigate to: Setup > Financial > Daily Close
+   - Verify business date and close date
+   - Click "Run Daily Close" and wait for completion
+   - Verify all transactions are posted
+
+3. **Backup Verification**
+   - Confirm backup location path is correct
+   - Verify sufficient disk space available (at least 50GB)
+   - Check backup directory permissions
+
+4. **Initiate EOD Process**
+   - Navigate to: Setup > End of Day
+   - Verify EOD parameters and settings
+   - Click "Start EOD Process"
+   - **Do NOT close application during EOD**
+
+5. **Monitor Progress**
+   - Watch progress indicator/log file
+   - DO NOT interrupt or restart the process
+   - Wait for completion message
+
+6. **Post-EOD Verification**
+   - Verify all reports completed successfully
+   - Confirm backup file was created in backup directory
+   - Check file size is reasonable (verify not empty/corrupted)
+   - Review EOD logs for any warnings
+
+7. **Archive Yesterday's Data**
+   - If desired, archive previous day's transactions
+   - Compress log files to save space
+
+## EOD Troubleshooting Actions
+
+### Timeout Issues
+- Increase timeout in EOD configuration (Setup > System Configuration > EOD Parameters)
+- Run EOD during low-traffic hours (2-5 AM is ideal)
+- Optimize slow database queries: `ANALYZE TABLE; REBUILD INDEXES;`
+- Reduce transaction volume by archiving older data
+
+### Backup Failures  
+- **Check disk space**: `df -h` (Linux) or `wmic logicaldisk get name,size,freespace` (Windows)
+- **Add disk space**: Expand partition or mount new drive
+- **Check permissions**: Verify OPERA service account has write permission
+- **Verify backup path**: Confirm path exists and is accessible
+
+### Report Failures
+- **Verify path exists**: Check file path is correct and directory exists
+- **Check permissions**: Ensure write permissions on report directory
+- **Verify templates**: Confirm all report templates exist
+- **Check printer**: If printing reports, verify default printer is available
+
+### Posting Errors
+- **GL Account Check**: Verify GL accounts exist and are active
+- **Posting Period**: Check posting period is open and dates are correct
+- **Outstanding Items**: Post or clear all outstanding transactions
+- **Data Consistency**: Run database integrity checks
+
+### Database Issues
+- **Kill Blocking Connections**: Identify and terminate other database sessions accessing OPERA
+- **Rollback Incomplete EOD**: If previous EOD was incomplete, manually rollback
+- **Increase Temp Space**: Allocate more tempora/tablespace for large transactions
+- **Archive Old Logs**: Remove transaction logs older than 30 days
+
+### Common EOD Execution Sequence
+
+```
+START EOD
+├─ Pre-check: Verify backup destination
+├─ Pre-check: Verify GL setup
+├─ Lock Database
+├─ Daily Close Posting
+├─ Post GL Transactions
+├─ Generate Reports
+│  ├─ Daily Report
+│  ├─ Revenue Report
+│  ├─ Housekeeping Report
+│  └─ Financial Summary
+├─ Backup Database
+├─ Archive Files
+├─ Unlock Database
+└─ END EOD (Success)
+```
+
+## EOD Parameter Tuning
+
+- **EOD Timeout**: Default 3600 seconds (1 hour). Increase for large properties
+- **Backup Chunk Size**: Larger values faster but use more memory (512 MB - 2 GB)
+- **Report Output**: Specify directory for all EOD reports  
+- **Archive Days**: Number of days before archiving (typically 90)
+- **Posting Flag**: Enable GL posting integration if applicable
+
+## EOD Rollback and Recovery
+
+If EOD fails midway:
+1. **Check Data State**: Query OPERA database to assess what posted
+2. **Identify Failed Step**: Review EOD log to find failure point  
+3. **Manual Rollback**: Reverse any partial postings through journal entries
+4. **Clear EOD Lock**: May need to manually clear EOD lock flag in database
+5. **Restart EOD**: Once data is consistent, restart from beginning
+6. **Contact Support**: If unable to recover, call Oracle Support with EOD logs
+
+# Export Files Troubleshooting
+
+## Overview
+
+Export Files module handles data export from OPERA to external systems (GDS,
+OTA, flat files, etc.). This section contains comprehensive export errors and
+solutions from official Oracle documentation.
+
+## Common Export Errors - Detailed Solutions
+
+### File System Errors
+
+- **Error**: Error while transferring file to FTP server. Reason: Login incorrect
+  - **Cause**: FTP username or password is incorrect in communication methods
+  - **Solution**: Verify FTP username and password are correct. Check spelling. Test FTP credentials separately.
+
+- **Error**: Error while transferring file. Reason: Directory path does not exist
+  - **Cause**: FTP server folder path is incorrect or doesn't exist
+  - **Solution**: Verify FTP directory path syntax and that directory exists on server. Contact FTP administrator.
+
+- **Error**: Export Destination Not Found
+  - **Cause**: Export file path does not exist or is inaccessible
+  - **Solution**: Verify path syntax (use full path like C:\Export\data.csv). Create destination directory if missing.
+
+- **Error**: Export File Permission Denied
+  - **Cause**: User or system account lacks write permission on destination folder
+  - **Solution**: Grant write permissions to OPERA service account on export directory. Check NTFS permissions.
+
+- **Error**: File Already Exists - Overwrite Denied
+  - **Cause**: Export file already exists and overwrite flag is not set
+  - **Solution**: Delete existing file or enable overwrite option in export configuration
+
+- **Error**: Export Timeout
+  - **Cause**: Export took too long and was cancelled (usually > 3600 seconds)
+  - **Solution**: Reduce data volume being exported. Run during off-peak hours. Increase timeout if possible.
+
+### Data Format Errors
+
+- **Error**: Export Format Invalid
+  - **Cause**: Selected export format not supported
+  - **Solution**: Choose valid export format from dropdown (CSV, XML, Excel, Tab-delimited, etc.)
+
+- **Error**: Export Data Incomplete
+  - **Cause**: Not all required data fields available for export
+  - **Solution**: Verify all records have required information populated. Check field mapping.
+
+- **Error**: No Data Found to Read for Group [Number]
+  - **Cause**: Export file sent but EXP_DATA_TABLE has empty data record
+  - **Solution**: Verify source records contain data. Check table space allocation. Contact PMS team to research.
+
+- **Error**: Invalid Field Format
+  - **Cause**: Field contains data in wrong format for export specification
+  - **Solution**: Correct source data format before export. V example: ensure dates are in YYYY-MM-DD format.
+
+- **Error**: Character Encoding Mismatch
+  - **Cause**: Text contains characters not supported by export encoding
+  - **Solution**: Remove special characters or select UTF-8 encoding if available.
+
+### Configuration Errors
+
+- **Error**: Export Configuration Missing
+  - **Cause**: Export batch not configured or setup incomplete
+  - **Solution**: Setup export in Setup > Channels > Export Files > Configuration
+
+- **Error**: Export File Format Template Missing
+  - **Cause**: Custom export template deleted or not found
+  - **Solution**: Restore template from backup or create new template
+
+- **Error**: Invalid Field Mapping
+  - **Cause**: Source field mapped to invalid or non-existent destination field
+  - **Solution**: Review field mappings. Correct or remove invalid mappings.
+
+- **Error**: Export Recipient Not Defined
+  - **Cause**: Export destination system/contact not configured
+  - **Solution**: Define export recipient in Setup > Export Files > Recipients
+
+### External System Integration Errors
+
+- **Error**: FTP Connection Failed
+  - **Cause**: Cannot connect to FTP server (network issue, server down, firewall blocking)
+  - **Solution**: Verify FTP server is online. Check network connectivity. Review firewall rules. Test with `ftp` command.
+
+- **Error**: FTP Login Failed
+  - **Cause**: Invalid FTP credentials or account locked
+  - **Solution**: Verify username/password. Check if FTP account is active and not locked.
+
+- **Error**: Pegasus Connection Error
+  - **Cause**: Connection to Pegasus GDS failed
+  - **Solution**: Verify Pegasus is online. Check Pegasus credentials. Verify OXI configuration.
+
+- **Error**: OTA API Connection Failed
+  - **Cause**: Cannot connect to OTA provider's API
+  - **Solution**: Verify OTA endpoint URL. Check OTA credentials. Test network connectivity to OTA.
+
+- **Error**: Export Recipient System Offline
+  - **Cause**: Destination system not available to receive export
+  - **Solution**: Verify destination system is online. Retry export. Contact destination system administrator.
+
+## Export File Status and Management
+
+### Export File Statuses
+- **PENDING**: File queued for export, awaiting processing
+- **IN_PROGRESS**: File currently being exported
+- **SUCCESSFUL**: File successfully exported to destination
+- **ERROR**: Export failed - see error details
+- **RETRY**: Automatic or manual retry in progress
+- **ARCHIVED**: File exported and archived (typically after 30-90 days)
+
+### Export File Error Handling Workflow
+
+1. **Locate Failed Export**: Setup > Channels > Export Files > Error Handling
+2. **Review Error Details**: Click error to view message, reason, and solution
+3. **Identify Root Cause**: Determine if configuration, data, or connectivity issue
+4. **Correct Issue**:
+   - For configuration errors: Update setup
+   - For data errors: Correct source data
+   - For connectivity: Verify destination system/network
+5. **Reprocess Export**: Locate failed export by ID and click "Retry" or "Reprocess"
+6. **Monitor Status**: Check export status changes to PENDING → SUCCESSFUL
+7. **Verify Destination**: Confirm file received and processed by destination system
+
+## Export File Configuration
+
+### Required Configuration for Export
+
+1. **Setup > Channels > Export Files > Configuration**
+   - Define export file format (CSV, XML, etc.)
+   - Map OPERA fields to export fields
+   - Define export frequency (immediate, scheduled, manual)
+
+2. **Destination Configuration**
+   - Specify file destination (FTP, local folder, email, API)
+   - For FTP: Save path, server, username, password/key
+   - For file system: Full path with write permissions
+   - For API: Endpoint URL, credentials, authentication method
+
+3. **Data Selection**
+   - Select data source (reservations, rates, inventory, etc.)
+   - Define filter criteria (date range, property, status, etc.)
+   - Map required and optional fields
+
+4. **File Naming Convention**
+   - Auto-generate name pattern (e.g., HOTEL_YYYYMMDD.csv)
+   - Or specify manual name
+
+5. **Retry Configuration**
+   - Set retry count (typically 3-5 attempts)
+   - Set retry interval (delay between retries)
+   - Set max wait time before giving up
+
+## Export Type Examples
+
+### GDS Rate Upload
+- **Module**: Rates
+- **Destination**: GDS (Pegasus/Sabre/Amadeus)
+- **Format**: TPI (Text Protocol Interface)
+- **Frequency**: Nightly or on-demand
+- **Error Handling**: Automatic retry with email notification
+
+### OTA Inventory Sync
+- **Module**: Availability/Inventory
+- **Destination**: OTA Provider API
+- **Format**: JSON/XML
+- **Frequency**: Real-time when availability changes
+- **Error Handling**: Queue failed updates, retry every 15 minutes
+
+### Guest File Export
+- **Module**: Guest Profiles
+- **Destination**: Local file or email
+- **Format**: CSV or Excel
+- **Frequency**: Manual or scheduled daily
+- **Error Handling**: Log failures, send error report
+
+### Rate Export
+- **Module**: Rates
+- **Destination**: GDS or OTA via OXI
+- **Format**: TPI or provider-specific
+- **Frequency**: Nightly batch or immediate on update
+- **Error Handling**: Notify revenue team if Pegasus export fails
+
+## Export Troubleshooting Checklist
+
+1. **Destination System Checks**
+   - Verify destination system is online and accepting connections
+   - Test connectivity: `ping hostname` or `telnet host port`
+   - Confirm destination has capacity (storage space, quota)
+
+2. **Credentials and Authentication**
+   - Verify FTP/API credentials are correct
+   - Confirm credentials haven't expired or been reset
+   - Check if account is locked or disabled
+
+3. **File and Path Checks**
+   - Verify destination path exists and is accessible
+   - Check for trailing spaces or hidden characters in path
+   - Ensure write permissions granted to OPERA service account
+   - Confirm sufficient disk space on destination (at least 10% free)
+
+4. **Data Quality Checks**
+   - Verify all required source fields have data
+   - Check data format matches export specification
+   - Ensure no special characters or encoding issues
+   - Review for NULL values in mandatory fields
+
+5. **Configuration Checks**
+   - Verify export configuration includes all required mappings
+   - Confirm export recipients are defined
+   - Check file naming doesn't contain invalid characters
+   - Ensure export format matches destination requirements
+
+6. **Network and Firewall**
+   - Verify firewall allows outbound on export port (FTP=21, SFTP=22, HTTPS=443)
+   - Check if proxy authentication required for API exports
+   - For OTA/API, verify SSL certificates are valid
+
+7. **Log File Review**
+   - Check export logs: Setup > Channels > Export Files > View Logs
+   - Look for timeout messages, connection refused, or permission denied
+   - Search for specific error codes matching error list above
+
+8. **Test Export**
+   - Create test export with small dataset
+   - Verify file created successfully
+   - Confirm file received at destination
+   - Validate file contents for accuracy
+
+## Manual Export in Case of Failures
+
+If automated export fails repeatedly:
+1. Navigate to source data module (Rates, Availability, etc.)  
+2. Select records to export
+3. Right-click > Export Data
+4. Choose format and destination
+5. Save file
+6. Manually transfer to destination (SCP, FTP client, email, etc.)
+7. Notify IT/GDS team of manual export
+8. Update Status in OPERA to mark as processed
+
+# Rate Availability Troubleshooting
+
+## Common Rate Errors
+
+- **Rate Not Available**: Rate not configured for room type or date range. Create
+  rate or adjust availability.
+- **Rate Code Invalid**: Rate code does not exist or is inactive. Verify rate code
+  in Rate Master.
+- **Rate Override Conflict**: Rate override conflicts with existing configuration.
+  Review rate setup hierarchy.
+- **Rate Currency Mismatch**: Rate currency does not match property currency.
+  Verify currency settings.
+- **Rate Availability Blocked**: Rate available is set to N (not available). Change
+  to Y in Rate Availability setup.
+
+## Rate Availability Setup
+
+1. Navigate to Setup > Rate > Rate Master.
+2. Select rate code and verify status (Active/Inactive).
+3. Check Rate Availability: Setup > Rate > Rate Availability.
+4. Select room type, rate, and date range.
+5. Set Availability to Y or quantity if limited.
+6. Verify currency matches property currency.
+7. Test rate availability in Reservations module.
+
+## Rate Troubleshooting
+
+- **Rate Not Showing in PMS**: Verify rate is Active in Rate Master.
+- **Rate Incorrect Amount**: Check Rate Override setup and dates.
+- **Rate Currency Error**: Ensure property and rates use same currency code.
+- **Availability Zero**: Change Availability from Blocked to specific quantity.
+
+# ORS (Reservation System) Troubleshooting
+
+## ORS Connection and Configuration
+
+- **ORS Connection Failed**: Connection to Reservation System failed. Verify
+  database connectivity and ORS service running.
+- **ORS Service Timeout**: ORS request timed out. Check ORS performance or retry.
+- **Invalid ORS Configuration**: ORS settings not properly configured. Review
+  configuration in Setup > Interfaces > ORS.
+- **ORS Sync Error**: Synchronization between OPERA and ORS failed. Manually retry
+  sync or check logs.
+
+## ORS Operations
+
+- Verify ORS service is running on ORS server.
+- Check ORS database connectivity: use SQL client to test.
+- Review ORS error logs: `<ORS install>\Logs`.
+- Monitor ORS processor status in OPERA: Setup > Interfaces > Interface Monitor.
+- Test ORS connectivity: try basic query or sync operation.
+
+# OCIS (Central Information System) Troubleshooting
+
+## OCIS Membership Configuration Errors
+
+- **Membership Import Failed**: Import of membership records failed. Verify file
+  format and data completeness.
+- **Member Profile Sync Error**: Member profile could not be synced to OPERA.
+  Check profile data and OCIS settings.
+- **Membership Expiry Error**: Member expiry updates failed to process. Review expiry
+  date configuration.
+- **Award Redemption Error**: Member award redemption failed. Verify sufficient
+  award balance and point requirements.
+
+## OCIS Member Management
+
+1. Access OCIS member database: Setup > Memberships > Central.
+2. Search/add members and configure profiles.
+3. Set membership tier and benefits.
+4. Configure award accrual and redemption rules.
+5. Sync member updates to PMS.
+6. Monitor membership import logs.
+
+# OBI (Business Intelligence) Troubleshooting
+
+## OBI Export and Data Issues
+
+- **OBI Export Failed**: Data export to cloud/external system failed. Verify export
+  configuration and destination connectivity.
+- **OBI Credential Invalid**: OBI credentials expired or incorrect. Update OBI
+  credentials in setup.
+- **OBI Data Format Error**: Exported data format does not match requirements.
+  Verify export mapping configuration.
+- **OBI Cloud Connection Error**: Cannot connect to OBI cloud service. Check
+  network connectivity and firewall rules.
+
+## OBI Setup
+
+1. Install OBI client utility on server.
+2. Configure export data mapping: Setup > OBI > Export Configuration.
+3. Run OBI client utility to export data to cloud.
+4. Monitor export logs for errors or warnings.
+5. Validate data in cloud portal.
+
+# OEDS (Enterprise Data Store) Troubleshooting
+
+## OEDS Channel Configuration
+
+- **Channel Conversion Rate Error**: Room/rate conversion to channel failed. Verify
+  mapping and currency settings.
+- **Channel Rate Code Missing**: Required rate code not found in channel. Add rate
+  code to channel conversion.
+- **Channel Room Type Missing**: Room type not mapped to channel. Add room type
+  mapping in OEDS.
+- **Channel Data Sync Error**: Data synchronization with channel failed. Check
+  channel connection and configuration.
+
+## OEDS Channel Management
+
+1. Set up channel in OEDS: Setup > Channels > Channel Configuration.
+2. Map room types to channel room codes.
+3. Configure rate conversion for each rate code.
+4. Test channel synchronization.
+5. Monitor channel error logs.
+
+# OCMM (Central Marketing Management) Troubleshooting
+
+## OCMM Campaign and Segmentation Errors
+
+- **Campaign Creation Failed**: Campaign could not be created. Verify required
+  fields and segmentation data.
+- **Segmentation Query Error**: Segmentation query failed or returned no results.
+  Review query logic and database.
+- **Campaign Schedule Error**: Campaign schedule could not be created. Verify dates
+  and resource availability.
+- **Customer Segment Empty**: Selected customer segment contains no records. Adjust
+  segmentation criteria.
+
+## OCMM Campaign Management
+
+1. Create segmentation using OCMM query builder.
+2. Define customer groups for targeting.
+3. Create campaign with schedule and messaging.
+4. Set campaign budget and lifecycle.
+5. Execute campaign and monitor response.
+6. Review campaign analytics and ROI.
+
+# ORMS (Revenue Management System) Troubleshooting
+
+## ORMS Data and Forecasting Errors
+
+- **ORMS Forecasting Failed**: Revenue forecast calculation failed. Verify historical
+  data quality and completeness.
+- **Hurdle Rate Error**: Hurdle rate calculation error. Check ORMS configuration and
+  hurdle step setup.
+- **ARR Calculation Failed**: Average Room Rate calculation failed. Verify rate data
+  completeness.
+- **ORMS Modeling Error**: Revenue model creation or update failed. Check data inputs
+  and model configuration.
+
+## ORMS Operations
+
+1. Verify historical transactional data is complete.
+2. Configure hurdle steps: Setup > ORMS > Hurdle Configuration.
+3. Set up forecasting parameters and baseline.
+4. Run ORMS model calculation.
+5. Review forecasts: ARR, Occupancy, Hurdle Rate.
+6. Monitor ORMS reports and recommendations.
+
+# POS Terminal Errors & Products
+
+Understanding Common POS Terminal Error Codes: Troubleshooting for Smooth Transactions
+
+In today's digital world, Point of Sale (POS) systems have become an integral part of business operations. These systems enable businesses to process transactions efficiently and provide a seamless checkout experience for customers. However, like any technology, POS terminals can encounter errors that disrupt payment processing and potentially impact customer satisfaction. In this section we explore some common POS terminal error codes and provide troubleshooting tips.
+
+## Error Code 100 - Connection Failure
+- Check network connections: Ensure all cables and connections are secure, and the router or modem is functioning correctly.
+- Restart the terminal: Sometimes a simple restart can fix temporary connectivity issues.
+- Verify IP settings: Ensure the terminal's IP address is correct and matches the network's settings.
+
+## Error Code 200 - Card Declined
+- Ask the customer for an alternate payment method: Prompt the customer to use a different credit or debit card.
+- Verify card details: Double-check that the card information entered into the POS terminal is correct, including the card number, expiration date, and CVV code.
+- Contact the payment processor: In some cases the decline may be due to an issue on the payment processor's end.
+
+## Error Code 300 - Printer Error
+- Check paper and ink levels: Ensure there is sufficient paper and ink in the printer to complete the print job.
+- Clear any paper jams: If the printer is jammed, carefully remove the stuck paper to restore normal printing functionality.
+- Restart the printer: A simple restart can sometimes resolve temporary printer errors.
+
+## Error Code 400 - Transaction Timeout
+- Check network connection: Ensure the terminal is connected to a stable and reliable network.
+- Retry the transaction: Attempt the transaction again, as the previous timeout might have been due to a temporary issue.
+- Contact support: If the timeouts persist, contact the POS terminal provider's support team for further assistance.
+
+## Error Code 500 - System Error
+- Restart the terminal: A simple restart can sometimes resolve temporary system glitches.
+- Update software and firmware: Check for any available updates for the POS terminal's software and firmware.
+- Contact technical support: If the system error persists, reach out to the POS terminal manufacturer's technical support for guidance.
+
+## Error Code 600 - Invalid Card
+- Inspect the card: Check for any visible damage to the card's magnetic strip or chip.
+- Clean the card reader: Gently clean the card reader with a soft, lint-free cloth to remove any dirt or debris.
+
+
